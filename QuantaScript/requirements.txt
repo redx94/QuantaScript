@@ -1,0 +1,4 @@
+qiskit
+pytest
+black
+matplotlib
