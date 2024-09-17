@@ -1,4 +1,3 @@
-
 # Contributing to QuantaScript
 
 Thank you for your interest in contributing to QuantaScript! We welcome contributions from the community. Please follow these guidelines to ensure a smooth contribution process.
@@ -16,7 +15,6 @@ Thank you for your interest in contributing to QuantaScript! We welcome contribu
 3. **Create a Branch**: Create a new branch for your feature or bug fix.
 
    ```bash
-
    git checkout -b feature-or-bugfix-name
    ```
 
@@ -31,7 +29,6 @@ Thank you for your interest in contributing to QuantaScript! We welcome contribu
 6. **Push Changes**: Push your changes to your forked repository.
 
    ```bash
-
    git push origin feature-or-bugfix-name
    ```
 
@@ -39,18 +36,20 @@ Thank you for your interest in contributing to QuantaScript! We welcome contribu
 
 ## Code Style
 
-   ```bash
-   git clone https://github.com/redx94/QuantaScript.git
-   ```
+Please adhere to the coding style used in the project. We use Black for code formatting. To format your code, run:
 
-3. **Create a Branch**: Create a new branch for your feature or bug fix.
+```bash
+black .
+```
 
-   ```bash
-   git checkout -b feature-or-bugfix-name
-   ```
+## Running Tests
 
-4. **Make Changes**: Implement your feature or bug fix.
-5. **Push Changes**: Push your changes to your forked repository.
-6. **Create a Pull Request**: Open a pull request on the original repository.
+Ensure that all tests pass before submitting a pull request. To run tests, use pytest:
+
+```bash
+pytest tests/
+```
+
+By contributing to QuantaScript, you agree that your contributions will be licensed under the MIT License.
 
 © 2024 Reece Dixon. All rights reserved.
